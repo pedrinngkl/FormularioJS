@@ -77,7 +77,7 @@ function mascara_cpf() {
     var cpf_formatado = document.getElementById("cpf").value
     if (cpf_formatado[3] != ".") {
         if (cpf_formatado[3] != undefined) {
-            document.getElementById("cpf").value = cpf_formatado.slice(0, 3) + "." + cpf_formatado[2];
+            document.getElementById("cpf").value = cpf_formatado.slice(0, 3) + "." + cpf_formatado[3];
         }
     }
 
@@ -141,3 +141,4 @@ document.querySelector('.form-grid').addEventListener('submit', function(event) 
   event.preventDefault();
   alert('Formulário enviado com sucesso!');
 });
+
