@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <form class="form-grid">
+        <label for="nome">Nome</label>
+        <input type="text" placeholder="Seu nome" id="nome">
+
+        <label for="endereco">Endereço</label>
+        <input type="text" placeholder="Seu endereço" id="endereco">
+
+        <label for="cep">CEP</label>
+        <input type="text" placeholder="12.345-678" id="cep" oninput="mascara_cep()" maxlength="10">
+
+        <label for="cpf">CPF</label>
+        <input type="text" placeholder="123.456.789-01" id="cpf" oninput="mascara_cpf()" maxlength="14">
+
+        <label for="telefone">Telefone</label>
+        <input type="tel" placeholder="(31)99999-9999" id="telefone" oninput="mascara_telefone()" maxlength="14">
+
+        <label for="cnpj">CNPJ</label>
+        <input type="text" placeholder="12.345.678/0001-01" id="cnpj" oninput="mascara_cnpj()" maxlength="18">
+
+        <label for="codigo">CODIGO</label>
+        <input type="text" placeholder="12_34//567-891.9.234" id="codigo" oninput="mascara_codigo()" maxlength="20">
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>
