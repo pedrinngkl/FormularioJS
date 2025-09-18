@@ -33,11 +33,6 @@ Este projeto apresenta um formulário moderno e responsivo utilizando **CSS Grid
 ├── style.css
 └── script.js
 ```
-
-## ✨ Personalização
-
-Você pode adaptar os campos, estilos e validações conforme sua necessidade!
-
 ---
 
 <p align="center">
