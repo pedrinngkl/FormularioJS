@@ -3,8 +3,9 @@
 Este projeto apresenta um formulário moderno e responsivo utilizando **CSS Grid** para alinhamento dos campos. Ideal para cadastro de informações como nome, endereço, CPF, CNPJ, telefone, CEP e código personalizado.
 
 ## 🖼️ Visual
-
-![Exemplo de formulário](./img/formulario.png)
+<p align="center">
+  <img src="./img/formulario.png" alt="Formulário" width="800"/>
+</p>
 
 ## 🚀 Como usar
 
@@ -21,9 +22,9 @@ Este projeto apresenta um formulário moderno e responsivo utilizando **CSS Grid
 
 ## 🛠️ Tecnologias
 
-- HTML5
-- CSS3 (Grid Layout)
-- JavaScript
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 
 ## 📁 Estrutura
 
@@ -39,4 +40,6 @@ Você pode adaptar os campos, estilos e validações conforme sua necessidade!
 
 ---
 
-Feito com 💚 por [Seu Nome]
+<p align="center">
+  <img src="https://img.shields.io/badge/Feito%20com-%E2%9D%A4-red" alt="Feito com ❤️ por Pedro">
+</p>
